@@ -8,12 +8,12 @@ using UnityEngine;
 
 public class SampleTest : MonoBehaviour
 {
-    public GameObject _gameJbject;
+    [SerializeField]
+    private GameObject _gameJbject;
     public Vector3 pos;
     // Start is called before the first frame update
     void Start()
     {
-     _gameJbject=GetComponent<GameObject>();
      
      
     }
